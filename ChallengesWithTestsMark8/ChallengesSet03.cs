@@ -30,7 +30,36 @@ namespace ChallengesWithTestsMark8
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrEmpty(password))
+            {
+                return false;
+            }
+
+            bool containsUpper = false;
+            bool containsLower = false;
+            bool containsNumber = false;
+
+            foreach (char c in password)
+            {
+                if (char.IsUpper(c))
+                {
+                    containsUpper = true;
+                }
+                else if (char.IsLower(c))
+                {
+                    containsLower = true;
+                }
+                else if (char.IsDigit(c))
+                {
+                    containsNumber = true;
+                }
+
+                if (containsUpper && containsLower && containsNumber)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         public char GetFirstLetterOfString(string val)
@@ -54,17 +83,28 @@ namespace ChallengesWithTestsMark8
 
         public int LastMinusFirst(int[] nums)
         {
-            throw new NotImplementedException();
+            return nums[nums.Length - 1] - nums[0];
         }
 
         public int[] GetOddsBelow100()
         {
-            throw new NotImplementedException();
+            List<int> odds = new List<int>();
+            for (int i = 1; i < 100; i += 2)
+            {
+                odds.Add(i);
+            }
+            return odds.ToArray();
         }
 
         public void ChangeAllElementsToUppercase(string[] words)
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < words.Length; i++)
+            {
+                if (words[i] != null)
+                {
+                    words[i] = words[i].ToUpper();
+                }
+            }
         }
     }
 }
