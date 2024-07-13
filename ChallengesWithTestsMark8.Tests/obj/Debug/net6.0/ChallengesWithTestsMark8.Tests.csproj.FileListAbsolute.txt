@@ -1,7 +1,6 @@
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/ChallengesWithTestsMark8.deps.json
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/ChallengesWithTestsMark8.runtimeconfig.json
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/ChallengesWithTestsMark8
-/Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/xunit.runner.reporters.netcoreapp10.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/xunit.runner.utility.netcoreapp10.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/ChallengesWithTestsMark8.Tests.deps.json
@@ -9,8 +8,6 @@
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/ChallengesWithTestsMark8.Tests.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/ChallengesWithTestsMark8.Tests.pdb
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
-/Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
-/Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -19,7 +16,6 @@
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/testhost.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Newtonsoft.Json.dll
-/Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/System.Xml.XPath.XmlDocument.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/xunit.abstractions.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/xunit.assert.dll
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/xunit.core.dll
@@ -102,3 +98,6 @@
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/Debug/net6.0/ChallengesWithTestsMark8.Tests.pdb
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/Debug/net6.0/ChallengesWithTestsMark8.Tests.genruntimeconfig.cache
 /Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/Debug/net6.0/ref/ChallengesWithTestsMark8.Tests.dll
+/Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/.msCoverageSourceRootsMapping_ChallengesWithTestsMark8.Tests
+/Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/xunit.runner.visualstudio.testadapter.dll
+/Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.Utilities.dll
