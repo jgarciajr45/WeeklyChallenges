@@ -36,14 +36,14 @@ namespace ChallengesWithTestsMark8
 
         public bool IsAscendingOrder(int[] numbers)
         {
-            if (numbers == null || numbers.Length < 2)
+            if (numbers == null || numbers.Length == 0)
             {
-                return true;
+                return false;
             }
 
-            for (int i = 0; i < numbers.Length - 1; i++)
+            for (int i = 1; i < numbers.Length; i++)
             {
-                if (numbers[i] > numbers[i + 1])
+                if (numbers[i] < numbers[i - 1])
                 {
                     return false;
                 }

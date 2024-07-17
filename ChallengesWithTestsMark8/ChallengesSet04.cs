@@ -126,6 +126,10 @@ namespace ChallengesWithTestsMark8
 
         public int Factorial(int number)
         {
+            if (number < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(number), "Factorial is not defined for negative numbers.");
+            }
             int result = 1;
             for (int i = 2; i <= number; i++)
             {
