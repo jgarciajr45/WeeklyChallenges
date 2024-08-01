@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "A2bVRpdZL4GKXUnKxyj4BJKebuWt6H1aYWJBo4I7e9qroo+DyQhAXStcOzNcy4AyH0kn4bpN+gF9lNIKkBnLTQ==",
+  "dgSpecHash": "muU+o2vI8/+jJ+ppa2a2s+vcWah2vKarzj5JzYbLJcNlpe8nbEvEomv25xPrPAP1mjaMHvj5J2l8txhQsfYnEA==",
   "success": true,
   "projectFilePath": "/Users/jesusgarcia/Desktop/Repo/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jesusgarcia/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/jesusgarcia/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
+    "/Users/jesusgarcia/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
   "logs": []
 }

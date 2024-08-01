@@ -43,7 +43,31 @@ namespace ChallengesWithTestsMark8
 
         public int IndexOfLastUniqueLetter(string str)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrEmpty(str))
+            {
+                return -1;
+            }
+            Dictionary<char, int> charCount = new Dictionary<char, int>();
+
+            foreach (char c in str)
+            {
+                if (charCount.ContainsKey(c))
+                {
+                    charCount[c]++;
+                }
+                else
+                {
+                    charCount[c] = 1;
+                }
+            }
+            for (int i = str.Length - 1; i >= 0; i--)
+            {
+                if (charCount[str[i]] == 1)
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
 
         public int MaxConsecutiveCount(int[] numbers)
@@ -77,7 +101,16 @@ namespace ChallengesWithTestsMark8
 
         public double[] GetEveryNthElement(List<double> elements, int n)
         {
-            throw new NotImplementedException();
+            if (elements == null || n <= 0)
+            {
+                return new double[0];
+            }
+            List<double> result = new List<double>();
+            for (int i = n - 1; i < elements.Count; i += n)
+            {
+                result.Add(elements[i]);
+            }
+            return result.ToArray();
         }
     }
 }
